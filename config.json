@@ -1,6 +1,6 @@
 {
   "PREFIX": ".",
-  "ADMINBOT": ["100051136962291"], 
+  "ADMINBOT": ["100051136962291","61559927626036"], 
   "BOTNAME": "Emperor Bot",
   "GEMINI_KEY": "your_apikey", 
   "fcaOptions": {
