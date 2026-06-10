@@ -1,5 +1,5 @@
 module.exports.config = {
-    title: "معلومات",
+    title: "الاباطرة",
     release: "1.0.0",
     clearance: 0,
     author: "ليث",
