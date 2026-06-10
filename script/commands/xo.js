@@ -24,7 +24,7 @@ const wins = [
 [0,4,8],[2,4,6]
 ];
 
-module.exports.run = async function({ api, event, args }) {
+module.exports.HakimRun = async function({ api, event, args }) {
 const threadID = event.threadID;
 
 if (games[threadID]) {
