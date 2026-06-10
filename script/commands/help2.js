@@ -88,7 +88,7 @@ module.exports.HakimRun = async function({ api, event, args }) {
     msg += `│ الاوامــر📌 : ${uniqueCommands.size}\n`;
     msg += `│ اســم الــبــوت🤖 : ${BOT_NAME}\n`;
     msg += `│ المطور👑 : ${DEVELOPER_NAME}\n`;
-    msg += `| صممةمدخ
+    msg += `| صمم لخدمة الأعضاء و تقديم المعلومات 💡\n`; 
     msg += `│ اسـتـخــدم : اوامر [اسم الامر] `; 
     msg += `╯───────∙⋆⋅ ※ ⋅⋆∙───────◈\n`;
 
