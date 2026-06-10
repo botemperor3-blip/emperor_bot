@@ -1,3 +1,4 @@
+const countPath = path.join(__dirname, "cache", "messageCount.json");
 const axios = require("axios");
 const fs = require("fs-extra");
 const path = require("path");
@@ -60,9 +61,12 @@ module.exports.HakimRun = async function({ api, event}) {
       rawGender === 1 || altGender === "female"? "مز":
       "❓ غير محدد";
 
-    const msgCount =
-      typeof userInfo.messageCount === "number"? userInfo.messageCount:
-      typeof userInfo.count === "number"? userInfo.count: 0;
+    let msgCount = 0;
+
+if (fs.existsSync(countPath)) {
+    const countData = fs.readJsonSync(countPath);
+    msgCount = countData[targetID] || 0;
+}
 
     const category =
       msgCount>= 10000? " نشِط جداً":
