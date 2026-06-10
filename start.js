@@ -1,3 +1,12 @@
+process.on('unhandledRejection', (reason, promise) => {
+    console.log('FCA Error Blocked successfully! Reason:', reason);
+});
+
+process.on('uncaughtException', (err, origin) => {
+    console.log('System Exception Blocked! Error:', err);
+});
+
+
 const { spawn } = require('child_process');
 const path = require('path');
 const chalk = require('chalk');
