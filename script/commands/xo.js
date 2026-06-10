@@ -9,6 +9,7 @@ summary: "لعبة إكس أوه",
 section: "العاب",
 syntax: "xo [bot]",
 delay: 5
+handleEvent: true,
 };
 
 const nums = [
