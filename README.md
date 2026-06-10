@@ -1,10 +1,10 @@
-# Mirror Bot 
+# Emperor Bot 
 # Developed By Hakim Tracks 
 ![Mirror Bot Agent](https://i.imgur.com/aAO58sQ.jpeg)
 
 ## معلومات البوت
-- **اسم البوت:** Mirror Bot
-- **الوظيفة:** بوت ماسنجر
+- **اسم البوت:** Emperor Bot
+- **الوظيفة:** بوت ماسنجر تابع لمجموعة الأباطرة
 
 ## معلومات المطور
 - **صلاح الدين (Hakim Tracks)**
