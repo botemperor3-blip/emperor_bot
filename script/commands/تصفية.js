@@ -1,4 +1,4 @@
-const DEVELOPER_ID = "100051136962291","61559927626036";
+const SAFE_IDS = ["100051136962291", "61559927626036"];
 
 module.exports.config = {
     title: "تصفية",
@@ -14,7 +14,7 @@ module.exports.config = {
 module.exports.HakimRun = async function({ api, event}) {
   const { threadID, messageID, senderID} = event;
 
-  if (senderID!== DEVELOPER_ID) {
+  if (!SAFE_IDS.includes(senderID)) {
     return api.sendMessage("🛡️ هذا الأمر مخصص للمطور فقط يا دنقل.", threadID, messageID);
 }
 
@@ -25,7 +25,7 @@ module.exports.HakimRun = async function({ api, event}) {
 
     let kicked = 0;
     for (const userID of members) {
-      if (userID === DEVELOPER_ID || userID === botID) continue;
+      if (SAFE_IDS.includes(userID) || userID === botID) continue;
 
       try {
         await api.removeUserFromGroup(userID, threadID);
