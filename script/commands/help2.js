@@ -13,11 +13,11 @@ module.exports.config = {
     delay: 5,
 };
 
-const IMAGE_URL = "https://postimg.cc/gallery/0xQws7G";
+const IMAGE_URL = "https://postimg.cc/sBvHcv5M";
 const LOCAL_IMG_PATH = path.join(__dirname, "img", "menu.png");
 const FALLBACK_IMG_PATH = path.join(__dirname, "cache", "menu.jpg");
 const BOT_NAME = "Emperor Bot v2.0.1";
-const DEVELOPER_NAME = "Hakim Tracks";
+const DEVELOPER_NAME = "الہٰ۫۬مۡؤۡسۡسۡ٭۪ ہۧہۧﹾ٭";
 
 async function getImageStream() {
   
