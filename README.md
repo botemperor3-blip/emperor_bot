@@ -1,6 +1,6 @@
 # Emperor Bot 
-# Developed By Hakim Tracks 
-![Mirror Bot Agent](https://i.imgur.com/aAO58sQ.jpeg)
+# Developed By الہٰ۫۬مۡؤۡسۡسۡ٭۪ ہۧہۧﹾ٭ 
+![Emperor Bot Agent](https://i.imgur.com/aAO58sQ.jpeg)
 
 ## معلومات البوت
 - **اسم البوت:** Emperor Bot
@@ -8,7 +8,7 @@
 
 ## معلومات المطور
 - **ليث (الہٰ۫۬مۡؤۡسۡسۡ٭۪ ہۧہۧﹾ٭ )**
-  - [حساب فيسبوك](fb.com/Hakim.Tracks.Ch)
+  - [حساب فيسبوك](Hakim.com/Hakim.Tracks.Ch)
 
 ## مشاريع أخرى
 - Rock Bot
