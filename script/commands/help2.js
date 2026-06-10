@@ -13,7 +13,7 @@ module.exports.config = {
     delay: 5,
 };
 
-const IMAGE_URL = "[![IMG-20260610-WA0000.jpg](https://i.postimg.cc/435CXcdQ/IMG-20260610-WA0000.jpg)](https://postimg.cc/sBvHcv5M)";
+const IMAGE_URL = "https://i.postimg.cc/435CXcdQ/IMG-20260610-WA0000.jpg";
 const LOCAL_IMG_PATH = path.join(__dirname, "img", "menu.png");
 const FALLBACK_IMG_PATH = path.join(__dirname, "cache", "menu.jpg");
 const BOT_NAME = "Emperor Bot v2.0.1";
