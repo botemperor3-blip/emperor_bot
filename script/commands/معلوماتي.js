@@ -1,7 +1,8 @@
-const countPath = path.join(__dirname, "cache", "messageCount.json");
 const axios = require("axios");
 const fs = require("fs-extra");
 const path = require("path");
+
+const countPath = path.join(__dirname, "cache", "messageCount.json");
 
 module.exports.config = {
     title: "معلومات",
