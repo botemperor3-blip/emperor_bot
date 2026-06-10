@@ -16,7 +16,7 @@ module.exports.config = {
 const IMAGE_URL = "https://postimg.cc/gallery/0xQws7G";
 const LOCAL_IMG_PATH = path.join(__dirname, "img", "menu.png");
 const FALLBACK_IMG_PATH = path.join(__dirname, "cache", "menu.jpg");
-const BOT_NAME = "Mirror Bot v2.0.1";
+const BOT_NAME = "Emperor Bot v2.0.1";
 const DEVELOPER_NAME = "Hakim Tracks";
 
 async function getImageStream() {
